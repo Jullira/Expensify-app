@@ -23,6 +23,7 @@
     "css-loader": "0.28.4",
     "express": "4.15.4",
     "extract-text-webpack-plugin": "3.0.0",
+    "firebase": "^8.2.3",
     "moment": "2.18.1",
     "node-sass": "^5.0.0",
     "normalize.css": "7.0.0",
@@ -33,13 +34,16 @@
     "react-dom": "15.6.1",
     "react-modal": "2.2.2",
     "react-redux": "5.0.5",
-    "react-router-dom": "4.1.2",
+    "react-router": "^4.4.0-beta.8",
+    "react-router-dom": "4.3.0",
     "redux": "3.7.2",
+    "redux-mock-store": "1.2.3",
     "sass-loader": "6.0.6",
     "style-loader": "0.18.2",
     "uuid": "3.1.0",
     "validator": "8.0.0",
-    "webpack": "3.1.0"
+    "webpack": "3.1.0",
+    "worker-farm": "^1.7.0"
   },
   "devDependencies": {
     "enzyme": "2.9.1",
