@@ -23,12 +23,17 @@ export const ExpenseList = (props) => (
         )
     }
     </div>
+    <div>
+      <p>Hidden Items: {props.allExpenses.length - props.expenses.length}</p>
+    </div>
   </div>
 );
 
 const mapStateToProps = (state) => {
+  console.log(state.expenses)
   return {
-    expenses: selectExpenses(state.expenses, state.filters)
+    expenses: selectExpenses(state.expenses, state.filters),
+    allExpenses: state.expenses
   };
 };
 
